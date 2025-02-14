@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 400px;
+  width: 50%;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxes {
+  border: 0.1px solid;
+  width: 160px;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#box1 {
+  order: 3;
+  background-color: green;
+}
+#box2 {
+  order: 2;
+  background-color: yellow;
+}
+#box3 {
+  order: 1;
+  background-color: pink;
+}
